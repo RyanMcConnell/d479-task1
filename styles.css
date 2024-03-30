@@ -1,0 +1,84 @@
+body {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+.welcome-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: pink;
+}
+
+.navbar {
+    background-color: aliceblue;
+}
+
+.navbar-brand {
+    padding: 0px 30px 0px 30px;
+}
+
+.navbar-brand:hover {
+    color: pink;
+    font-weight: 500px;
+    text-shadow: 1px 1px white;
+}
+
+.hero-container {
+    background-image: url("/images/taniti-home-image-1.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+.home-image {
+    border-radius: 50%;
+    border: 20px solid pink;
+    width: 100%;
+    height: auto;
+}
+
+.hero-text-header {
+    font-size: 5em;
+    font-weight: 500;
+    text-shadow: 5px 5px black;
+}
+
+.section-container, .footer-container {
+    padding: 20px;
+}
+
+div:nth-child(5) > div.section-header-container > h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: pink;
+    border: 20px solid aliceblue;
+}
+
+/* .section-header-container:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+} */
