@@ -9,4 +9,9 @@
 
 .stays-hotel-item {
     margin: 20px;
+    padding-bottom: 30px;
+}
+
+.stays-hotel-review {
+    font-style: italic;
 }
